@@ -1,0 +1,55 @@
+#+TITLE: DIY Fight Stick project
+#+TODO: TODO(t) DOING(g) PICKED(p) | DONE(d) BOUGHT(b) 
+* Features
+** Low latency
+** (Semi) Easily swapable parts
+** Easily reprogrammable firmware 
+** Xinput support for PC
+** Fits both smaller Japanese levers and bigger Korean ones
+   
+* Parts
+** Buttons: [[https://www.amazon.de/-/en/Original-OBSF-30-Buttons-Joystick-Console-red/dp/B01N43KUH3/ref=sr_1_3?dchild=1&keywords=sanwa+buttons&qid=1625471100&sr=8-3][Sanwa 30mm]]
+*** 8 Action buttons
+*** Start button
+*** Select button
+*** Possible extra buttons for addition functionality
+** Stick: [[https://www.amazon.de/-/en/JLF-TP-8YT/dp/B01CRQMWEQ/ref=sr_1_3?crid=2LU595KXG8BEV&dchild=1&keywords=sanwa+stick&qid=1625471265&sprefix=sanwa+stick%2Caps%2C192&sr=8-3][Sanwa Stick]]
+*** Japanese Sticks
+*** Korean Stick
+** Connectors
+*** Minimal soldering
+*** Solder joint should only be on the MCU, button connections with connectors
+** MCU
+*** Support for USB HID
+*** Easily reprogrammamble
+*** USB powered
+** Case
+*** Heavy
+*** Must accommodate Japanese and Korean levers
+*** Durable
+** Software
+*** Firmware options
+**** Custom firmware
+**** [[https://github.com/passinglink/passinglink][Passing Link]]
+*** Low latency (under 4ms)
+    
+
+* TODO DIY Fight Stick
+** TODO Pick and buy parts
+*** PICKED Buttons
+*** PICKED Stick
+*** TODO MCU
+*** TODO Software
+*** TODO Case
+** TODO Build Stick
+*** TODO Develop software
+**** Read buttons state
+**** Button state to XInput
+*** TODO Test software with dummy buttons
+*** TODO Assemble stick
+** TODO Test Stick
+*** TODO Test all buttons
+*** TODO Test stick: u,f,b,d, uf, ub, df, db, qcf, qcb, hcf, hcb, fc
+*** TODO Perform PEWGF with Kazuya on T7 to stress test latency 
+*** TODO General asskicking in T7
+    
