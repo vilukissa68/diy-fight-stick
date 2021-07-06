@@ -17,6 +17,8 @@
 *** Japanese Sticks
 *** Korean Stick
 ** Connectors
+*** Connectors for buttons
+*** Usb connector
 *** Minimal soldering
 *** Solder joint should only be on the MCU, button connections with connectors
 ** MCU
@@ -34,20 +36,24 @@
 *** Low latency (under 4ms)
     
 
-* TODO DIY Fight Stick
-** TODO Pick and buy parts
+* TODO DIY Fight Stick [0%]
+** TODO Xinput proof of concept with arduino
+*** PoC is meant to provided evidence that MCU based Xinput fight stick is doable
+** TODO Pick and buy parts [0/5]
 *** PICKED Buttons
 *** PICKED Stick
+*** TODO Connectors
 *** TODO MCU
 *** TODO Software
 *** TODO Case
-** TODO Build Stick
-*** TODO Develop software
-**** Read buttons state
-**** Button state to XInput
+** TODO Build Stick [0/3]
+*** TODO Develop software [0/3]
+**** TODO Choose framework
+**** TODO Read buttons state
+**** TODO Button state to XInput
 *** TODO Test software with dummy buttons
 *** TODO Assemble stick
-** TODO Test Stick
+** TODO Test Stick [0/4]
 *** TODO Test all buttons
 *** TODO Test stick: u,f,b,d, uf, ub, df, db, qcf, qcb, hcf, hcb, fc
 *** TODO Perform PEWGF with Kazuya on T7 to stress test latency 
