@@ -1,5 +1,10 @@
 #+TITLE: DIY Fight Stick project
-#+TODO: TODO(t) DOING(g) PICKED(p) | DONE(d) BOUGHT(b) 
+#+TODO: TODO(t) DOING(g) | DONE(d)  
+#+TODO: PICKED(p) | BOUGTH
+# Local Variables:
+# mode: org
+# org-todo-keyword-faces: (("TODO" . "orange")("DOING" . "yellow")("DONE" . "green")("PICKED" . "yellow")("BOUGHT" . "green"))
+# End:
 * Features
 ** Low latency
 ** (Semi) Easily swapable parts
@@ -19,8 +24,8 @@
 ** Connectors
 *** Connectors for buttons
 *** Usb connector
-*** Minimal soldering
-*** Solder joint should only be on the MCU, button connections with connectors
+    Minimal soldering
+    Solder joint should only be on the MCU, button connections with connectors
 ** MCU
 *** Support for USB HID
 *** Easily reprogrammamble
@@ -38,7 +43,7 @@
 
 * TODO DIY Fight Stick [0%]
 ** TODO Xinput proof of concept with arduino
-*** PoC is meant to provided evidence that MCU based Xinput fight stick is doable
+   PoC is meant to provided evidence that MCU based Xinput fight stick is doable
 ** TODO Pick and buy parts [0/5]
 *** PICKED Buttons
 *** PICKED Stick
